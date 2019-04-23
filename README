@@ -1,0 +1,21 @@
+Buna ziua!
+
+Pe scurt, programul meu citeste siruri pana la intalnirea
+sirului END(sau END\n) si sunt stocate intr-un vector de pointeri,
+fiecare dintre ei alocat dinamic pentru a retine un sir. Acest vector
+este apoi parcurs, fiecare componenta trecuta prin tip_sir(care ne va
+spune daca este cuvant, caracter sau numar). Fiecare tip este contorizat
+intr-o variabila cu nume sugestiv, acestea fiind ulterior afisate.
+
+Dupa acestea, vectorul este parcurs din nou si fiecare tip este prelucrat
+conform cerintei, sirul rezultat fiind memorat in (*rezultat).
+Sirul (*rezultat) este afisat, iar apoi impartit in n parti egale memorate
+in vectorul de tip structura. Fiecarui subsir ii este atribuita complexitatea,
+iar vectorul continand subsirurile este sortat descrescator si afisat
+in ordinea 0,n-1,1,n-2,2 etc.
+
+In final, toata memoria alocata dinamic este eliberata folosind free().
+
+As spune ca tema mi-a luat (cumulat, aproximativ) 21 ore.
+
+Fazakas Alexandru, 311CC, Facultatea de Automatica si Calculatoare.
